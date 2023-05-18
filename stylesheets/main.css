@@ -1,0 +1,46 @@
+:root {
+  --primary-blue: #4d43e4;
+  --secondary-white: #ffffff;
+  --tertiary-orange: #de821b;
+  --quad-light-blue: #b8b4f6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+  /* border: 1px solid blue; */
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: unset;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  min-width: 320px;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+button {
+  background: var(--tertiary-orange);
+  color: var(--secondary-white);
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
