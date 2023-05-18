@@ -1,0 +1,125 @@
+.hero {
+  background: var(--primary-blue);
+  position: relative;
+  width: 100vw;
+  min-height: 85vh;
+  min-width: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero__image-right {
+  position: absolute;
+  width: 30rem;
+  height: auto;
+  bottom: 0;
+  right: -10rem;
+}
+@media only screen and (max-width: 1100px) {
+  .hero__image-right {
+    width: 25rem;
+    right: -7.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero__image-right {
+    width: 15rem;
+    right: -5rem;
+  }
+}
+
+.hero__image-left {
+  position: absolute;
+  width: 30rem;
+  height: auto;
+  bottom: 0;
+  left: -10rem;
+  transform: rotateY(180deg);
+}
+@media only screen and (max-width: 1100px) {
+  .hero__image-left {
+    width: 25rem;
+    left: -9rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero__image-left {
+    width: 15rem;
+    left: -5rem;
+  }
+}
+
+.hero__title_container {
+  position: relative;
+  text-align: center;
+}
+/* @media only screen and (max-width: 1100px) {
+  .hero__title_container {
+    top: -2.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero__title_container {
+    top: -1.5rem;
+  }
+} */
+
+.hero__title {
+  color: var(--secondary-white);
+  font-size: 15rem;
+  font-weight: 800;
+  line-height: 0.85em;
+  overflow-y: hidden;
+}
+@media only screen and (max-width: 1100px) {
+  .hero__title {
+    font-size: 9rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero__title {
+    font-size: 6rem;
+  }
+}
+
+.hero__strapline {
+  color: var(--quad-light-blue);
+  top: 36rem;
+  font-size: 2.7rem;
+  font-weight: 600;
+  text-align: center;
+  transform: translateX(-7px);
+}
+@media only screen and (max-width: 1100px) {
+  .hero__strapline {
+    font-size: 1.62rem;
+    transform: translateX(-5px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero__strapline {
+    font-size: 1.09rem;
+    transform: translateX(-2.5px);
+  }
+}
+
+.hero__button {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 1100px) {
+  .hero__button {
+    font-size: 1.25rem;
+    padding: 0.75rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero__button {
+    font-size: 1rem;
+  }
+}
