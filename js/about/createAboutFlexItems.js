@@ -61,12 +61,6 @@ export const createAboutFlexItems = () => {
       aboutTextContainer
     )
 
-    const aboutLogo = createElement('img', {
-      class: 'about__logo',
-      src: '/img/2050_log_white.svg',
-      alt: '',
-    })
-
     const flexItem = createElement(
       'article',
       {
