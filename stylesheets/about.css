@@ -11,15 +11,16 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0rem;
+  gap: 2rem;
   padding-top: 6rem;
   padding-bottom: 6rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   .about__flexbox {
-    gap: 0rem;
-    padding-top: 3rem;
-    padding-bottom: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -34,8 +35,6 @@
   width: 22rem;
   min-height: 34rem;
   border-radius: 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 @media only screen and (max-width: 1200px) {
   .about__flex-item {
