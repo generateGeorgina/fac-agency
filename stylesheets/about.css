@@ -1,13 +1,93 @@
 .about {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .about__flex-item {
-  width: 30%;
-  min-width: 20rem;
-  border: 0.5px solid green;
+  background: var(--primary-blue);
+  color: var(--secondary-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 22rem;
+  min-width: 22rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.about__image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 12rem;
+  overflow: hidden;
+}
+
+.about_image {
+  object-fit: cover;
+  z-index: 1;
+}
+
+.about_spring {
+  position: relative;
+  top: -5rem;
+  height: 8rem;
+  width: auto;
+}
+
+.about__text-container {
+  position: relative;
+  top: -3.8rem;
+  width: 100%;
+  height: 14rem;
+  overflow: hidden;
+}
+
+.about__title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.about__title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-bottom: 0.18rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+  border: 2px solid var(--quad-light-blue);
+  margin-bottom: 0.5rem;
+}
+
+.about__text {
+  position: absolute;
+  text-align: justify;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-justify: inter-word;
+  font-weight: 600;
+}
+
+.about_logo {
+  position: relative;
+  bottom: 2.2rem;
+  width: 6rem;
+  height: auto;
 }
