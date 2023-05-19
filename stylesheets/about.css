@@ -35,12 +35,12 @@
   overflow: hidden;
 }
 
-.about_image {
+.about__image {
   object-fit: cover;
   z-index: 1;
 }
 
-.about_spring {
+.about__spring {
   position: relative;
   top: -5rem;
   height: 8rem;
@@ -56,7 +56,7 @@
   text-align: center;
 }
 
-.about__info-conatiner {
+.about__info-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -65,7 +65,7 @@
   align-items: center;
 }
 
-.about_title_container {
+.about__title-container {
   border-radius: 1rem;
   border: 2px solid var(--quad-light-blue);
   margin-bottom: 1rem;
@@ -92,7 +92,7 @@
   font-weight: 600;
 }
 
-.about_logo {
+.about__logo {
   position: relative;
   bottom: 2.2rem;
   width: 6rem;
