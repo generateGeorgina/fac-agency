@@ -5,6 +5,12 @@ export const createAboutFlexItems = () => {
   const aboutCards = aboutList.map((aboutCard) => {
     const { key, image, title, text } = aboutCard
 
+    const spring = createElement('img', {
+      class: 'about__spring',
+      src: '/img/spring.svg',
+      alt: '',
+    })
+
     const aboutImage = createElement('img', {
       class: 'about__image',
       src: image,
@@ -17,12 +23,6 @@ export const createAboutFlexItems = () => {
       },
       aboutImage
     )
-
-    const spring = createElement('img', {
-      class: 'about__spring',
-      src: '/img/spring.svg',
-      alt: '',
-    })
 
     const aboutTitle = createElement(
       'h3',
@@ -54,6 +54,13 @@ export const createAboutFlexItems = () => {
       aboutText
     )
 
+    const aboutContent = createElement(
+      'div',
+      { class: 'about__content' },
+      imageContainer,
+      aboutTextContainer
+    )
+
     const aboutLogo = createElement('img', {
       class: 'about__logo',
       src: '/img/2050_log_white.svg',
@@ -66,9 +73,8 @@ export const createAboutFlexItems = () => {
         class: 'about__flex-item',
         tabindex: '0',
       },
-      imageContainer,
       spring,
-      aboutTextContainer
+      aboutContent
     )
 
     return flexItem
