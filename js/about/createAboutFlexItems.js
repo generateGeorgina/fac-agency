@@ -75,5 +75,5 @@ export const createAboutFlexItems = () => {
     return flexItem
   })
 
-  return document.querySelector('.about').append(...aboutCards)
+  return document.querySelector('.about__flexbox').append(...aboutCards)
 }
