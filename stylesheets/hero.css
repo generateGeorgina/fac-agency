@@ -2,7 +2,7 @@
   background: var(--primary-blue);
   position: relative;
   width: 100vw;
-  min-height: 85vh;
+  min-height: 100vh;
   min-width: 320px;
   height: auto;
   display: flex;
