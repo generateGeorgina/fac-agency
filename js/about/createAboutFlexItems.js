@@ -68,8 +68,7 @@ export const createAboutFlexItems = () => {
       },
       imageContainer,
       spring,
-      aboutTextContainer,
-      aboutLogo
+      aboutTextContainer
     )
 
     return flexItem
