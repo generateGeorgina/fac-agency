@@ -58,16 +58,6 @@
   position: relative;
   text-align: center;
 }
-/* @media only screen and (max-width: 1200px) {
-  .hero__title_container {
-    top: -2.5rem;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .hero__title_container {
-    top: -1.5rem;
-  }
-} */
 
 .hero__title {
   color: var(--secondary-white);

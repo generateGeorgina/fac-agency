@@ -20,7 +20,6 @@
     gap: 0rem;
     padding-top: 3rem;
     padding-bottom: 0rem;
-    /* background: var(--primary-blue); */
   }
 }
 
@@ -32,8 +31,10 @@
   align-items: center;
   flex-direction: column;
   width: 22rem;
+  max-height: 36rem;
   border-radius: 2rem;
-  margin: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 @media only screen and (max-width: 1200px) {
   .about__flex-item {
@@ -72,7 +73,7 @@
 .about__text-container {
   position: relative;
   top: -3.8rem;
-  height: 16.5rem;
+  height: 19rem;
   overflow: hidden;
   text-align: center;
 }
