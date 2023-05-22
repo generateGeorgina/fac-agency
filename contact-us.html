@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./stylesheets/form.css" rel="stylesheet" />
+    <link href="./stylesheets/main.css" rel="stylesheet" />
+    <link href="./stylesheets/hero.css" rel="stylesheet" />
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <div class="form-container">
+        <form>
+            <legend class="display-block">If you would like us to contact you, leave your details</legend>
+            <label class="display-block" for="name">Name</label>
+            <input class="display-block" type="text" id="name" name="name" />
+
+            <label class="display-block" for="telephone">Telephone</label>
+            <input class="display-block" type="text" id="telephone" name="telephone" />
+
+            <label class="display-block" for="email">Email</label>
+            <input class="display-block" type="email" id="email" name="email" />
+
+            <label class="display-block" for="human-count">How many humans do you want to hire</label>
+            <input class="display-block" type="number" id="human-count" name="humans">
+
+            <fieldset>
+                <legend>Preferred contact method</legend>
+                <input type="radio" id="preferred-email" name="contact" value="email" checked>
+                <label for="preferred-email">email</label>
+        
+                <input type="radio" id="preferred-phone" name="contact" value="phone">
+                <label for="preferred-phone">phone</label>
+        
+                <input type="radio" id="preferred-post" name="contact" value="post">
+                <label for="preferred-post">post</label>
+              </fieldset>
+
+              <input type="checkbox" id="marketing-consent" name="marketing" />
+              <label for="marketing-consent">Click here to subscribe to our newsletter!</label>
+
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <img class="hero__image-right" src="/img/dummy.png" alt="" />
+        <img class="hero__image-left" src="/img/dummy.png" alt="" />
+    </div>
+</body>
+</html>
