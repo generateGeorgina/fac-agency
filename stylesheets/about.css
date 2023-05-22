@@ -1,0 +1,125 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--primary-blue);
+}
+
+.about__flexbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+@media only screen and (max-width: 1200px) {
+  .about__flexbox {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.about__flex-item {
+  background: var(--primary-blue);
+  color: var(--secondary-white);
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 22rem;
+  min-height: 34rem;
+  border-radius: 2rem;
+}
+@media only screen and (max-width: 1200px) {
+  .about__flex-item {
+    border-radius: unset;
+    box-shadow: unset;
+    margin: 0rem;
+    background: none;
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about__flex-item {
+    margin: 1rem;
+  }
+}
+
+.about__content {
+  width: 100%;
+  height: 100%;
+}
+
+.about__image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 14rem;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.about__image {
+  object-fit: cover;
+  z-index: 1;
+  border-radius: 2rem;
+}
+
+.about__spring {
+  position: absolute;
+  top: 8.8rem;
+  height: 8rem;
+  width: 100%;
+}
+
+.about__text-container {
+  position: relative;
+  margin-top: 3.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.about__info-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__title-container {
+  border-radius: 1rem;
+  border: 2px solid var(--quad-light-blue);
+  margin-bottom: 1rem;
+}
+
+.about__title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  padding-top: 0.2rem;
+}
+
+.about__text {
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 600;
+}
+
+.about__logo {
+  position: relative;
+  bottom: 4rem;
+  width: 6rem;
+  height: auto;
+}

@@ -2,7 +2,7 @@
   background: var(--primary-blue);
   position: relative;
   width: 100vw;
-  min-height: 85vh;
+  min-height: 100vh;
   min-width: 320px;
   height: auto;
   display: flex;
@@ -20,7 +20,7 @@
   bottom: 0;
   right: -10rem;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   .hero__image-right {
     width: 25rem;
     right: -7.5rem;
@@ -41,7 +41,7 @@
   left: -10rem;
   transform: rotateY(180deg);
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   .hero__image-left {
     width: 25rem;
     left: -9rem;
@@ -58,16 +58,6 @@
   position: relative;
   text-align: center;
 }
-/* @media only screen and (max-width: 1100px) {
-  .hero__title_container {
-    top: -2.5rem;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .hero__title_container {
-    top: -1.5rem;
-  }
-} */
 
 .hero__title {
   color: var(--secondary-white);
@@ -76,7 +66,7 @@
   line-height: 0.85em;
   overflow-y: hidden;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   .hero__title {
     font-size: 9rem;
   }
@@ -95,7 +85,7 @@
   text-align: center;
   transform: translateX(-7px);
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   .hero__strapline {
     font-size: 1.62rem;
     transform: translateX(-5px);
@@ -112,7 +102,7 @@
   font-size: 1.5rem;
   margin-top: 2rem;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   .hero__button {
     font-size: 1.25rem;
     padding: 0.75rem;
