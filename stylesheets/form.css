@@ -1,0 +1,50 @@
+* {
+    color: var(--secondary-white);
+}
+
+body {
+    background-color: var(--primary-blue);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+legend, label, input {
+    /* display: block; */
+    text-align: center;
+    margin: auto;
+}
+
+.display-block{
+    display: block;
+}
+
+input {
+    background-color: var(--quad-light-blue)
+}
+
+form * + * {
+    margin-top: 0.75rem;
+}
+
+form {
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.form-container {
+    max-width: 25rem;
+    background-color: inherit;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+fieldset {
+    text-align: center;
+}
