@@ -7,11 +7,13 @@
   z-index: 999;
   min-width: 320px;
   background: var(--primary-blue);
+  border: 2px solid green;
 }
 @media only screen and (max-width: 1200px) {
   .nav {
     font-size: 10rem;
     justify-content: center;
+    border: 2px solid red;
   }
 }
 
@@ -26,7 +28,6 @@
 @media only screen and (max-width: 1200px) {
   .nav__ul {
     margin-right: 0rem;
-    margin-top: 1rem;
     padding: 0.5rem;
   }
 }
