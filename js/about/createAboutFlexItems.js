@@ -7,7 +7,7 @@ export const createAboutFlexItems = () => {
 
     const spring = createElement('img', {
       class: 'about__spring',
-      src: '/img/spring.svg',
+      src: './img/spring.svg',
       alt: '',
     })
 
