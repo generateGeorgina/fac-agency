@@ -67,18 +67,30 @@
         <div class="form">
           <form id="contact__form" class="form__container">
             <label class="form__element" for="name">Name</label>
-            <input class="" type="text" id="name" name="name" />
+            <input class="" type="text" id="name" name="name" required />
 
             <label class="form__element" for="telephone">Telephone</label>
-            <input class="" type="text" id="telephone" name="telephone" />
+            <input
+              class=""
+              type="text"
+              id="telephone"
+              name="telephone"
+              required
+            />
 
             <label class="form__element" for="email">Email</label>
-            <input class="" type="email" id="email" name="email" />
+            <input class="" type="email" id="email" name="email" required />
 
             <label class="form__element" for="human-count"
               >How many humans do you want to hire</label
             >
-            <input class="" type="number" id="human-count" name="humans" />
+            <input
+              class=""
+              type="number"
+              id="human-count"
+              name="humans"
+              required
+            />
 
             <div class="form__pref">
               <fieldset class="form__contact-method form__element">
@@ -91,6 +103,7 @@
                       name="contact"
                       value="email"
                       checked
+                      required
                       class="form__radio"
                     />
                     <label for="preferred-email">Email</label>
@@ -102,6 +115,7 @@
                       id="preferred-phone"
                       name="contact"
                       value="phone"
+                      required
                       class="form__radio"
                     />
                     <label for="preferred-phone">Phone</label>
@@ -113,6 +127,7 @@
                       id="preferred-post"
                       name="contact"
                       value="post"
+                      required
                       class="form__radio"
                     />
                     <label for="preferred-post">Post</label>
