@@ -1,6 +1,7 @@
 export const onFormSubmit = async (e) => {
   e.preventDefault()
 
+  const form = e.target
   const formElements = form.querySelectorAll('input, textarea, select')
   const formElementsArray = Array.from(formElements)
   let formDetails = {}
@@ -15,6 +16,7 @@ export const onFormSubmit = async (e) => {
   }
 
   await postData(formDetails)
+  form.reset()
 }
 
 const postData = async (clientDetails) => {
