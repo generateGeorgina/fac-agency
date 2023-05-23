@@ -58,73 +58,105 @@
       <section class="about" id="about">
         <div class="about__flexbox"></div>
       </section>
-      <h1>Contact Us</h1>
 
-      <section class="form-container" id="form">
-        <form id="contact__form">
-          <legend class="display-block">
-            If you would like us to contact you, leave your details
-          </legend>
-          <label class="display-block" for="name">Name</label>
-          <input class="display-block" type="text" id="name" name="name" />
+      <section id="form">
+        <h3 class="contact__title">Contact Us</h3>
+        <h4 class="contact__blurb">
+          If you would like us to contact you, leave your details
+        </h4>
+        <div class="form">
+          <form id="contact__form" class="form__container">
+            <label class="form__element" for="name">Name</label>
+            <input class="" type="text" id="name" name="name" />
 
-          <label class="display-block" for="telephone">Telephone</label>
-          <input
-            class="display-block"
-            type="text"
-            id="telephone"
-            name="telephone"
-          />
+            <label class="form__element" for="telephone">Telephone</label>
+            <input class="" type="text" id="telephone" name="telephone" />
 
-          <label class="display-block" for="email">Email</label>
-          <input class="display-block" type="email" id="email" name="email" />
+            <label class="form__element" for="email">Email</label>
+            <input class="" type="email" id="email" name="email" />
 
-          <label class="display-block" for="human-count"
-            >How many humans do you want to hire</label
-          >
-          <input
-            class="display-block"
-            type="number"
-            id="human-count"
-            name="humans"
-          />
+            <label class="form__element" for="human-count"
+              >How many humans do you want to hire</label
+            >
+            <input class="" type="number" id="human-count" name="humans" />
 
-          <fieldset>
-            <legend>Preferred contact method</legend>
-            <input
-              type="radio"
-              id="preferred-email"
-              name="contact"
-              value="email"
-              checked
-            />
-            <label for="preferred-email">email</label>
+            <div class="form__pref">
+              <fieldset class="form__contact-method form__element">
+                <legend>Preferred contact method</legend>
+                <div class="form__radio-flex">
+                  <div class="form__radio-flex-item">
+                    <input
+                      type="radio"
+                      id="preferred-email"
+                      name="contact"
+                      value="email"
+                      checked
+                      class="form__radio"
+                    />
+                    <label for="preferred-email">Email</label>
+                  </div>
 
-            <input
-              type="radio"
-              id="preferred-phone"
-              name="contact"
-              value="phone"
-            />
-            <label for="preferred-phone">phone</label>
+                  <div class="form__radio-flex-item">
+                    <input
+                      type="radio"
+                      id="preferred-phone"
+                      name="contact"
+                      value="phone"
+                      class="form__radio"
+                    />
+                    <label for="preferred-phone">Phone</label>
+                  </div>
 
-            <input
-              type="radio"
-              id="preferred-post"
-              name="contact"
-              value="post"
-            />
-            <label for="preferred-post">post</label>
-          </fieldset>
+                  <div class="form__radio-flex-item">
+                    <input
+                      type="radio"
+                      id="preferred-post"
+                      name="contact"
+                      value="post"
+                      class="form__radio"
+                    />
+                    <label for="preferred-post">Post</label>
+                  </div>
+                </div>
+              </fieldset>
 
-          <input type="checkbox" id="marketing-consent" name="marketing" />
-          <label for="marketing-consent"
-            >Click here to subscribe to our newsletter!</label
-          >
+              <div class="form__subscribe">
+                <input
+                  type="checkbox"
+                  id="marketing-consent"
+                  name="marketing"
+                  class="form__subscribe-checkbox"
+                />
+                <label for="marketing-consent"
+                  >Click here to subscribe to our newsletter!</label
+                >
+              </div>
+            </div>
 
-          <br />
-          <button type="submit">Submit</button>
-        </form>
+            <br />
+            <button type="submit" class="form__submit">Submit</button>
+          </form>
+
+          <div class="contact__details">
+            <div class="contact__notes">
+              <img src="./img/tel.svg" class="form__img" />
+              <p class="contact__text-title">PHONE:</p>
+              <a class="contact__text" href="tel:02088888888">0208 888 8888</a>
+            </div>
+            <div class="contact__notes">
+              <img src="./img/at.svg" class="form__img" />
+              <p class="contact__text-title">EMAIL:</p>
+              <a class="contact__text" href="mailto:info@agency2050"
+                >info@agency2050.com</a
+              >
+            </div>
+            <div class="contact__logos">
+              <img src="./img/facebook.svg" class="form__logo-img" />
+              <img src="./img/twitter.svg" class="form__logo-img" />
+              <img src="./img/linkedin.svg" class="form__logo-img" />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
