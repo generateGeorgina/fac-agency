@@ -28,6 +28,7 @@ export const createAboutFlexItems = () => {
       'h3',
       {
         class: 'about__title',
+        tabindex: '0',
       },
       title
     )
@@ -35,6 +36,7 @@ export const createAboutFlexItems = () => {
       'p',
       {
         class: 'about__text',
+        tabindex: '0',
       },
       text
     )

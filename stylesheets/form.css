@@ -154,10 +154,7 @@ input {
 .contact__text {
   text-align: center;
   font-size: 1.5rem;
-}
-.contact__text:focus {
-  outline: none;
-  border-bottom: 2px solid var(--secondary-white);
+  border-bottom: 2px solid var(--quad-light-blue);
 }
 
 .form__element {
