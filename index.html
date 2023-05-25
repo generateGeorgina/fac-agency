@@ -25,11 +25,12 @@
     <link href="stylesheets/form.css" rel="stylesheet" />
     <link href="stylesheets/footer.css" rel="stylesheet" />
     <link href="stylesheets/company.css" rel="stylesheet" />
+    <link href="stylesheets/element-focus.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <nav class="nav">
-        <ul class="nav__ul" tabindex="1">
+        <ul class="nav__ul">
           <li>
             <a class="nav__link" href="#hero">
               <img class="nav__img" src="./img/home.svg" alt="" />
@@ -53,22 +54,24 @@
     </header>
 
     <main class="main">
-      <section class="hero" id="hero">
+      <section class="hero" id="hero" tabindex="-1">
         <img class="hero__image-right" src="./img/dummy_sm.png" alt="" />
         <img class="hero__image-left" src="./img/dummy_sm.png" alt="" />
         <div class="hero__title_container">
-          <h1 class="hero__title">20:50</h1>
-          <h2 class="hero__strapline">HIRE HUMANS VERY VERY CHEAP</h2>
-          <a href="mailto:info@agency2050.com">
-            <button class="hero__button">Email Us</button>
+          <h1 class="hero__title" tabindex="-1">20:50</h1>
+          <h2 class="hero__strapline" tabindex="-1">
+            HIRE HUMANS VERY VERY CHEAP
+          </h2>
+          <a class="hero__button" href="mailto:info@agency2050.com">
+            Email Us
           </a>
         </div>
       </section>
 
       <section class="company" id="company">
-        <div class="company-container">
+        <article class="company-container">
           <div class="company-text">
-            <p class="company-paragraph">
+            <p class="company-paragraph" tabindex="0">
               Welcome to Agency 20:50! At Agency 20:50, we are pioneers in a
               groundbreaking era where artificial intelligence reigns as the
               dominant species, shaping our world in the year 2050. Our mission
@@ -79,14 +82,14 @@
           <div class="company-image">
             <img class="company-logo" src="./img/2050_log_white.svg" />
           </div>
-        </div>
+        </article>
       </section>
 
-      <section class="about" id="about">
+      <section class="about" id="about" tabindex="-1">
         <div class="about__flexbox"></div>
       </section>
 
-      <section id="form">
+      <section id="form" tabindex="-1">
         <h3 class="contact__title">Contact Us</h3>
         <h4 class="contact__blurb">
           If you would like us to contact you, leave your details
@@ -94,11 +97,17 @@
         <div class="form">
           <form id="contact__form" class="form__container">
             <label class="form__element" for="name">Name</label>
-            <input class="" type="text" id="name" name="name" required />
+            <input
+              class="form__input"
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
 
             <label class="form__element" for="telephone">Telephone</label>
             <input
-              class=""
+              class="form__input"
               type="text"
               id="telephone"
               name="telephone"
@@ -106,26 +115,31 @@
             />
 
             <label class="form__element" for="email">Email</label>
-            <input class="" type="email" id="email" name="email" required />
+            <input
+              class="form__input"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
 
             <label class="form__element" for="human-count"
               >How many humans do you want to hire</label
             >
             <input
-              class=""
+              class="form__input"
               type="number"
               id="human-count"
               name="humans"
               required
             />
 
-            <div class="form__pref" tabindex="0">
-              <fieldset class="form__contact-method form__element" tabindex="0">
+            <div class="form__pref">
+              <fieldset class="form__contact-method form__element">
                 <legend>Preferred contact method</legend>
-                <div class="form__radio-flex" tabindex="0">
-                  <div class="form__radio-flex-item" tabindex="0">
+                <div class="form__radio-flex">
+                  <div class="form__radio-flex-item">
                     <input
-                      tabindex="0"
                       type="radio"
                       id="preferred-email"
                       name="contact"
@@ -137,9 +151,8 @@
                     <label for="preferred-email">Email</label>
                   </div>
 
-                  <div class="form__radio-flex-item" tabindex="0">
+                  <div class="form__radio-flex-item">
                     <input
-                      tabindex="0"
                       type="radio"
                       id="preferred-phone"
                       name="contact"
@@ -150,9 +163,8 @@
                     <label for="preferred-phone">Phone</label>
                   </div>
 
-                  <div class="form__radio-flex-item" tabindex="0">
+                  <div class="form__radio-flex-item">
                     <input
-                      tabindex="0"
                       type="radio"
                       id="preferred-post"
                       name="contact"
@@ -165,14 +177,14 @@
                 </div>
               </fieldset>
 
-              <div class="form__subscribe" tabindex="0">
+              <div class="form__subscribe">
                 <input
-                  tabindex="0"
                   type="checkbox"
                   id="marketing-consent"
                   name="marketing"
                   class="form__subscribe-checkbox"
                 />
+
                 <label for="marketing-consent"
                   >Click here to subscribe to our newsletter!</label
                 >

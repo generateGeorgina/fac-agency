@@ -101,6 +101,10 @@
   border: 2px solid var(--quad-light-blue);
   margin-bottom: 1rem;
 }
+.about__title-container:focus {
+  outline: none;
+  border: 5px solid red;
+}
 
 .about__title {
   width: 100%;
