@@ -65,7 +65,6 @@ export const createAboutFlexItems = () => {
       'article',
       {
         class: 'about__flex-item',
-        tabindex: '0',
       },
       spring,
       aboutContent

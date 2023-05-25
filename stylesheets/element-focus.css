@@ -1,0 +1,26 @@
+:focus-visible {
+  border: 2px solid white;
+  outline: none;
+}
+
+button:focus {
+  border: 2px solid white;
+  outline: none;
+}
+
+input:focus {
+  border: 4px solid var(--quad-light-blue);
+}
+
+input[type='radio']:focus + label {
+  border: 4px solid var(--quad-light-blue);
+}
+
+input[type='checkbox']:focus + label {
+  border: 3px solid var(--quad-light-blue);
+}
+
+/* to check what element is in focus */
+/* :focus {
+  outline: 5px solid red;
+} */

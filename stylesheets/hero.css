@@ -99,13 +99,20 @@
 }
 
 .hero__button {
+  display: block;
+  background: var(--tertiary-orange);
+  color: var(--secondary-white);
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 15rem;
+  margin: 2rem auto;
   font-size: 1.5rem;
-  margin-top: 2rem;
-  width: 10rem;
 }
 @media only screen and (max-width: 1200px) {
   .hero__button {
     padding: 0.75rem;
+    width: 10rem;
   }
 }
 @media only screen and (max-width: 600px) {

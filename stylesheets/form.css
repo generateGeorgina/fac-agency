@@ -59,6 +59,10 @@ input {
   max-width: 90vw;
 }
 
+.form__input {
+  border: 4px solid transparent;
+}
+
 .form__pref {
   display: flex;
   justify-content: space-evenly;
@@ -112,13 +116,15 @@ input {
   }
 }
 
+.form__subscribe-checkbox {
+  width: 2rem;
+}
+
 .form__submit {
   font-size: 1.2rem;
   margin-top: 2rem;
-}
-
-.form__subscribe-checkbox {
-  width: 2rem;
+  border: 2px solid transparent;
+  outline: none;
 }
 
 .contact__details {
@@ -150,6 +156,10 @@ input {
 .contact__text {
   text-align: center;
   font-size: 1.5rem;
+  border-bottom: 2px solid var(--quad-light-blue);
+}
+.contact__text:focus {
+  border-bottom: 2px solid var(--quad-light-blue);
 }
 
 .form__element {
