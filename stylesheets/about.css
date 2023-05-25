@@ -112,10 +112,10 @@
 }
 
 .about__text {
+  padding: 0.5rem;
   text-align: justify;
   text-justify: inter-word;
   font-weight: 600;
-  padding: 0.5rem;
   border-radius: 2rem;
 }
 
