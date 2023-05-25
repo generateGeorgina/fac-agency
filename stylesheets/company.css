@@ -1,46 +1,69 @@
 .company {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 4rem;
-    flex-direction: row;
-    gap: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4rem;
+  flex-direction: row;
+  gap: 4rem;
+}
+@media only screen and (max-width: 1200px) {
+  .company {
+    flex-direction: column;
+    gap: 0rem;
+  }
 }
 @media only screen and (max-width: 600px) {
-    .company {
-        margin: 0.5rem;
-        gap: 0rem;
-    }
+  .company {
+    margin: 0rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
+}
 
 .company-text {
-    width: 31rem;
-    height: 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 40rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.company-image {
-    width: 31rem;
-    height: 10rem;
+@media only screen and (max-width: 1200px) {
+  .company-text {
+    width: unset;
+    height: unset;
+  }
 }
 
 .company-paragraph {
-    padding: 2rem;
-    text-align: justify;
-    text-justify: inter-word;
+  padding: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.4rem;
+}
+@media only screen and (max-width: 1200px) {
+  .company-paragraph {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .company-paragraph {
+    font-size: 1.2rem;
+  }
+}
+
+.company-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .company-image {
+    display: none;
+  }
 }
 
 .company-logo {
-    width: 20rem;
-    height: auto;
-
+  width: 20rem;
+  height: auto;
 }
-.company-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
