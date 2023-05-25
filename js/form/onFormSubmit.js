@@ -1,6 +1,9 @@
 export const onFormSubmit = async (e) => {
   e.preventDefault()
 
+  const submitButton = e.target.querySelector('#form__submit')
+  submitButton.disabled = true
+
   const form = e.target
   const formElements = form.querySelectorAll('input, textarea, select')
   const formElementsArray = Array.from(formElements)
@@ -15,8 +18,14 @@ export const onFormSubmit = async (e) => {
     }
   }
 
-  await postData(formDetails)
-  form.reset()
+  try {
+    await postData(formDetails)
+  } catch (err) {
+    console.error(err)
+  } finally {
+    form.reset()
+    submitButton.disabled = false
+  }
 }
 
 const postData = async (clientDetails) => {
