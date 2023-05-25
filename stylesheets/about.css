@@ -4,10 +4,6 @@
   align-items: center;
   background: var(--primary-blue);
 }
-.about:focus {
-  outline: none;
-  border: none;
-}
 
 .about__flexbox {
   width: 100%;
@@ -113,10 +109,6 @@
   font-weight: 600;
   margin-bottom: 0.5rem;
   padding-top: 0.2rem;
-}
-.about__title:focus {
-  outline: none;
-  border: none;
 }
 
 .about__text {

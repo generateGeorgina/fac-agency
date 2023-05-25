@@ -60,7 +60,7 @@ input {
 }
 
 .form__input {
-  border: 4px solid var(--primary-blue);
+  border: 4px solid transparent;
 }
 
 .form__pref {
@@ -123,6 +123,8 @@ input {
 .form__submit {
   font-size: 1.2rem;
   margin-top: 2rem;
+  border: 2px solid transparent;
+  outline: none;
 }
 
 .contact__details {
@@ -154,6 +156,9 @@ input {
 .contact__text {
   text-align: center;
   font-size: 1.5rem;
+  border-bottom: 2px solid var(--quad-light-blue);
+}
+.contact__text:focus {
   border-bottom: 2px solid var(--quad-light-blue);
 }
 
