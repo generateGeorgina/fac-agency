@@ -1,4 +1,12 @@
 .company {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-container {
+  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,13 +16,13 @@
   gap: 4rem;
 }
 @media only screen and (max-width: 1200px) {
-  .company {
+  .company-container {
     flex-direction: column;
     gap: 0rem;
   }
 }
 @media only screen and (max-width: 600px) {
-  .company {
+  .company-container {
     margin: 0rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
