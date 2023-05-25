@@ -35,13 +35,12 @@ export const createAboutFlexItems = () => {
       'p',
       {
         class: 'about__text',
-        tabindex: '0',
       },
       text
     )
     const aboutTitleContainer = createElement(
       'div',
-      { class: 'about__title-container', tabindex: '0' },
+      { class: 'about__title-container' },
       aboutTitle
     )
     const aboutTextContainer = createElement(

@@ -116,13 +116,13 @@ input {
   }
 }
 
+.form__subscribe-checkbox {
+  width: 2rem;
+}
+
 .form__submit {
   font-size: 1.2rem;
   margin-top: 2rem;
-}
-
-.form__subscribe-checkbox {
-  width: 2rem;
 }
 
 .contact__details {
@@ -154,6 +154,10 @@ input {
 .contact__text {
   text-align: center;
   font-size: 1.5rem;
+}
+.contact__text:focus {
+  outline: none;
+  border-bottom: 2px solid var(--secondary-white);
 }
 
 .form__element {

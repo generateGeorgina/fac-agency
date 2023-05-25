@@ -49,10 +49,6 @@
   text-justify: inter-word;
   font-size: 1.4rem;
 }
-.company-paragraph:focus {
-  border: 1px solid white;
-  outline: none;
-}
 @media only screen and (max-width: 1200px) {
   .company-paragraph {
     font-size: 1.2rem;

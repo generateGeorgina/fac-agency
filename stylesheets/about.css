@@ -4,6 +4,10 @@
   align-items: center;
   background: var(--primary-blue);
 }
+.about:focus {
+  outline: none;
+  border: none;
+}
 
 .about__flexbox {
   width: 100%;
@@ -101,10 +105,6 @@
   border: 2px solid var(--quad-light-blue);
   margin-bottom: 1rem;
 }
-.about__title-container:focus {
-  outline: none;
-  border: 2px solid var(--secondary-white);
-}
 
 .about__title {
   width: 100%;
@@ -120,11 +120,6 @@
   text-justify: inter-word;
   font-weight: 600;
   padding: 0.5rem;
-}
-.about__text:focus {
-  outline: none;
-  border: 0.5px solid var(--secondary-white);
-  border-radius: 0.25rem;
 }
 
 .about__logo {
