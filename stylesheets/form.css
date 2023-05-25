@@ -164,3 +164,8 @@ input {
 .form__logo-img {
   width: 2rem;
 }
+
+fieldset {
+  /* border: none; */
+  border-color: var(--secondary-white);
+}
