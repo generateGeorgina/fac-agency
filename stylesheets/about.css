@@ -116,10 +116,7 @@
   text-justify: inter-word;
   font-weight: 600;
   padding: 0.5rem;
-}
-.about__text:focus {
-  outline: none;
-  border: none;
+  border-radius: 2rem;
 }
 
 .about__logo {
