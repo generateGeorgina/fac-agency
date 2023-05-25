@@ -1,5 +1,5 @@
-:focus {
-  border: none;
+:focus-visible {
+  border: 2px solid white;
   outline: none;
 }
 
