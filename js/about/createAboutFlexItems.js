@@ -28,7 +28,6 @@ export const createAboutFlexItems = () => {
       'h3',
       {
         class: 'about__title',
-        tabindex: '0',
       },
       title
     )
@@ -42,7 +41,7 @@ export const createAboutFlexItems = () => {
     )
     const aboutTitleContainer = createElement(
       'div',
-      { class: 'about__title-container' },
+      { class: 'about__title-container', tabindex: '0' },
       aboutTitle
     )
     const aboutTextContainer = createElement(
@@ -65,7 +64,6 @@ export const createAboutFlexItems = () => {
       'article',
       {
         class: 'about__flex-item',
-        tabindex: '0',
       },
       spring,
       aboutContent

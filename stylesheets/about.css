@@ -103,7 +103,7 @@
 }
 .about__title-container:focus {
   outline: none;
-  border: 5px solid red;
+  border: 2px solid var(--secondary-white);
 }
 
 .about__title {
@@ -119,6 +119,12 @@
   text-align: justify;
   text-justify: inter-word;
   font-weight: 600;
+  padding: 0.5rem;
+}
+.about__text:focus {
+  outline: none;
+  border: 0.5px solid var(--secondary-white);
+  border-radius: 0.25rem;
 }
 
 .about__logo {
