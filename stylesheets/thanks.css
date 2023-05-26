@@ -1,0 +1,143 @@
+.thanks {
+  background: var(--primary-blue);
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  min-width: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.thanks__image-right {
+  position: absolute;
+  width: 30rem;
+  height: auto;
+  bottom: 0;
+  right: -10rem;
+}
+@media only screen and (max-width: 1200px) {
+  .thanks__image-right {
+    width: 25rem;
+    right: -7.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .thanks__image-right {
+    width: 15rem;
+    right: -5rem;
+  }
+}
+
+.thanks__image-left {
+  position: absolute;
+  width: 30rem;
+  height: auto;
+  bottom: 0;
+  left: -10rem;
+  transform: rotateY(180deg);
+}
+@media only screen and (max-width: 1200px) {
+  .thanks__image-left {
+    width: 25rem;
+    left: -9rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .thanks__image-left {
+    width: 15rem;
+    left: -5rem;
+  }
+}
+
+.thanks__title_container {
+  position: relative;
+  text-align: center;
+  top: -5rem;
+}
+
+.thanks__title {
+  color: var(--secondary-white);
+  font-size: 10rem;
+  font-weight: 800;
+  line-height: 0.85em;
+  overflow-y: hidden;
+}
+@media only screen and (max-width: 1200px) {
+  .thanks__title {
+    font-size: 9rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .thanks__title {
+    font-size: 6rem;
+  }
+}
+
+.thanks__strapline {
+  color: var(--quad-light-blue);
+  top: 36rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  transform: translateX(-7px);
+}
+@media only screen and (max-width: 1200px) {
+  .thanks__strapline {
+    font-size: 1.62rem;
+    transform: translateX(-5px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .thanks__strapline {
+    font-size: 1.09rem;
+    transform: translateX(-2.5px);
+  }
+}
+
+.thanks__text {
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  padding: 2rem;
+}
+@media only screen and (max-width: 1200px) {
+  .thanks__text {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .thanks__text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+  }
+}
+
+.thanks__button {
+  display: block;
+  background: var(--tertiary-orange);
+  color: var(--secondary-white);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  width: 35rem;
+  margin: 2rem auto;
+  font-size: 1.8rem;
+}
+@media only screen and (max-width: 1200px) {
+  .thanks__button {
+    width: 20rem;
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .thanks__button {
+    font-size: 1.2rem;
+    width: 14rem;
+    margin: 0rem auto;
+  }
+}
