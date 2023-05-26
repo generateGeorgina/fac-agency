@@ -1,3 +1,4 @@
+import { navigateToRelativeUrl } from '../helpers/navigateToRelativeUrl.js'
 export const onFormSubmit = async (e) => {
   e.preventDefault()
 
@@ -25,7 +26,7 @@ export const onFormSubmit = async (e) => {
   } finally {
     form.reset()
     submitButton.disabled = false
-    window.location.href = '/thanks.html'
+    navigateToRelativeUrl('/thanks.html')
   }
 }
 
