@@ -25,7 +25,7 @@ export const onFormSubmit = async (e) => {
   } finally {
     form.reset()
     submitButton.disabled = false
-    window.location.href = '/thanks.html'
+    window.location.href = './thanks.html'
   }
 }
 
