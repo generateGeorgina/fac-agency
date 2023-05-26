@@ -21,12 +21,12 @@ export const onFormSubmit = async (e) => {
 
   try {
     await postData(formDetails)
+    navigateToRelativeUrl('/thanks.html')
   } catch (err) {
     console.error(err)
   } finally {
     form.reset()
     submitButton.disabled = false
-    navigateToRelativeUrl('/thanks.html')
   }
 }
 
