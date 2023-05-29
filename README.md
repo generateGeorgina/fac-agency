@@ -5,7 +5,6 @@ era where artificial intelligence reigns as the dominant species, shaping our
 world in the year 2050. Our mission is to bridge the gap between the immense
 computational power of AI and the irreplaceable qualities possessed by humans.
 
-
 # Site Features
 
 ## Responsive Layout
@@ -50,8 +49,8 @@ any code.
 
 ## Local Storage
 
-The stored form data is stored in local storage and retrieved on the thank you page.
-The users name is displayed on the screen with a message.
+The stored form data is stored in local storage and retrieved on the thank you
+page. The users name is displayed on the screen with a message.
 
 ## Node Email Server and Form Submission
 
@@ -80,17 +79,19 @@ Re-enable the submit button in the finally block encase of an errors.
 
 ## File Structure
 
-Separate files in folders: /img /js /stylesheets
+To keep the code clean and modular we have separated the files in folders: /img
+/js /stylesheets.
 
-Separate the css into meaningful sections and files, a single css file will
-become to big. There is a argument that this will make load times longer but
-this is irrelevant as when using frameworks in future all css will be joined
+We have separated the css into meaningful sections and files, a single css file
+will become to big. There is a argument that this will make load times longer
+but this is irrelevant as when using frameworks in future all css will be joined
 into a file/files for you.
 
-Use a main.css to control global variables and other css files as you see
+We have used a main.css to control global variables and other css files as
 relevant.
 
-Separate js files into relevant subfolders and use import syntax to reference.
+We have separated the js files into relevant subfolders and use import syntax to
+reference.
 
 ## Navigating to relative url
 
