@@ -1,5 +1,11 @@
 # fac-agency
 
+## How to open this project
+
+To view this project locally, use the live server extension VS Code
+
+## About Agency 20:50
+
 Welcome to Agency 20:50! At Agency 20:50, we are pioneers in a groundbreaking
 era where artificial intelligence reigns as the dominant species, shaping our
 world in the year 2050. Our mission is to bridge the gap between the immense
