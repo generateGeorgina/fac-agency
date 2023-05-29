@@ -108,6 +108,7 @@
   width: 15rem;
   margin: 2rem auto;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 @media only screen and (max-width: 1200px) {
   .hero__button {
