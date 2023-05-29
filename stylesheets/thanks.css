@@ -99,8 +99,23 @@
   }
 }
 
-.thanks__text {
+.thanks__name {
   margin-top: 5rem;
+  font-size: 2rem;
+}
+@media only screen and (max-width: 1200px) {
+  .thanks_name {
+    margin-top: 3.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .thanks__name {
+    margin-top: 2.5rem;
+  }
+}
+
+.thanks__text {
+  margin-top: 0rem;
   font-size: 1.6rem;
   padding: 2rem;
 }
